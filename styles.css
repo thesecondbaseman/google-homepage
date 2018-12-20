@@ -1,0 +1,121 @@
+html {
+  font-size: 13px;
+  font-family: arial, sans-serif;
+}
+
+nav {
+  margin: 15px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 5px 0 5px;
+}
+
+.hover:hover {
+  text-decoration: underline;
+}
+
+#leftnav {
+  display: flex;
+}
+
+#rightnav {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-left: auto;
+}
+
+#apps-button {
+  display: block;
+}
+
+a #signin-button {
+  height: 30px;
+  width: 67px;
+}
+
+#signin-button {
+  background-color: #4285f4;
+  color: white;
+  border: 0;
+  font-size: 13px;
+  padding: 7px 12px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+#signin-button:hover {
+  box-shadow: 0 0 1px black;
+}
+
+#logo img {
+  display: block;
+  margin: 150px auto 20px auto;
+}
+
+#search {
+  display: block;
+  margin: 0 auto 20px auto;
+  height: 44px;
+  width: 484px;
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0 0 2px grey;
+  border: 0;
+}
+
+#search-commands {
+  display: flex;
+  justify-content: center;
+}
+
+#search-commands a {
+  text-decoration: none;
+}
+
+#search-commands input {
+  height: 35px;
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  margin: 5px 5px;
+  border: 0;
+  border-radius: 2px;
+}
+footer {
+  background-color: rgb(242, 242, 242);
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+footer a {
+  text-decoration: none;
+  color: #5f6368;;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer li {
+  display: inline-block;
+  padding: 11.5px 10px 0 10px;
+}
+
+#leftfoot {
+  float: left;
+  padding-left: 20px;
+}
+
+#rightfoot {
+  float: right;
+  padding-right: 20px;
+}
