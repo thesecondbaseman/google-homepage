@@ -3,6 +3,7 @@ html {
   font-family: arial, sans-serif;
 }
 
+/* Navbar */
 nav {
   margin: 15px;
   height: 30px;
@@ -55,11 +56,13 @@ a #signin-button {
   box-shadow: 0 0 1px black;
 }
 
+/* Main - Google logo */
 #logo img {
   display: block;
   margin: 150px auto 20px auto;
 }
 
+/* Search Bar */
 #search {
   display: block;
   margin: 0 auto 20px auto;
@@ -71,6 +74,7 @@ a #signin-button {
   border: 0;
 }
 
+/* Search Button & Feeling Lucky */
 #search-commands {
   display: flex;
   justify-content: center;
@@ -88,6 +92,8 @@ a #signin-button {
   border: 0;
   border-radius: 2px;
 }
+
+/* Footer */
 footer {
   background-color: rgb(242, 242, 242);
   height: 40px;

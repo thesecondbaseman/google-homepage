@@ -1,0 +1,276 @@
+html {
+  font-family: arial,sans-serif;
+}
+
+body {
+  min-width: 1100px;
+}
+
+head {
+  display: flex;
+  flex-direction: column;
+}
+
+#head {
+  background-color: #fafafa;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+#top-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 10px 0;
+}
+
+#googlelogo {
+  position: relative;
+  top: 5px;
+  height: 44px;
+  width: auto;
+  padding: 0 15px 0 5px;
+}
+
+#top-head form {
+  display: flex;
+  align-items: center;
+}
+
+#searchbar-background {
+  background-color: #fff;
+  height: 44px;
+  width: 630px;
+  border-radius: 2px;
+  border: 0;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+  display: flex;
+  align-items: center;
+}
+
+#searchbar {
+  height: 40px;
+  width: 570px;
+  font-size: 18px;
+  font-style: arial, sans-serif;
+  border: 0;
+  margin-left: 13px;
+}
+
+#magnifier {
+  position: absolute;
+  left: 740px;
+}
+
+#right-top-head {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+#right-top-head input {
+  margin-left: 15px;
+  background-color: #1A73E8;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  border: 0;
+  border-radius: 2px;
+  padding: 7px 15px;
+}
+
+#bottom-head {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 1100px;
+}
+
+#bottom-head a {
+  font-size: 13px;
+  color: #777;
+  padding: 28px 16px 12px;
+  display: inline-block;
+}
+
+#left-bottom-head {
+  margin-left: 150px;
+}
+
+#right-bottom-head {
+  margin-left: 60px;
+}
+
+#left-bottom-head a, #right-bottom-head a {
+  text-decoration: none;
+}
+
+#right-bottom-head a {
+  padding-left: 20px;
+}
+
+#allselect {
+  border-bottom: 3px solid #1A73E8;
+}
+
+/* Body of search engine */
+main {
+  margin-left: 165px;
+}
+
+#results-data {
+  font-size: 13px;
+  padding: 15px 0 25px 0;
+  color: #808080;
+}
+
+.website {
+  max-width: 600px;
+  padding-bottom: 30px;
+}
+
+.website-title {
+  color: blue;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.website-link {
+  color: green;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.website-date {
+  font-size: 12px;
+  display: inline;
+  color: #666666;
+}
+
+.website-content {
+  font-size: 12px;
+  display: inline;
+}
+
+.related-results {
+  margin-left: 165px;
+  padding-top: 45px;
+}
+
+.results-ad {
+  max-width: 600px;
+}
+
+#related-title {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.related-results a {
+  text-decoration: none;
+  line-height: 25px;
+}
+
+.related-results a:hover {
+  text-decoration: underline;
+}
+
+
+/* Page Navigator with Google letters */
+#page-navigator {
+  margin-left: 320px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.googlenav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+td a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #4285f4;
+  font-size: 14px;
+}
+
+#gnav {
+  background: url('images/nav_logo242.png') no-repeat;
+  background-position: -24px 0;
+  overflow: hidden;
+  height: 40px;
+  width: 28px;
+  position: relative;
+  bottom: 7px;
+}
+
+#onav1 {
+  background: url('images/nav_logo242.png') no-repeat;
+  background-position: -52px 0;
+  overflow: hidden;
+  height: 40px;
+  width: 21px;
+}
+
+.onav {
+  background: url('images/nav_logo242.png') no-repeat;
+  background-position: -73px 0;
+  overflow: hidden;
+  height: 40px;
+  width: 21px;
+}
+
+#gle {
+  background: url('images/nav_logo242.png') no-repeat;
+  background-position: -95px 0;
+  overflow: hidden;
+  height: 40px;
+  width: 75px;
+}
+
+#googlenav-next {
+  position: relative;
+  left: 25px;
+}
+
+/* Footer */
+footer {
+  height: 70px;
+  width: auto;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e6e6e6;
+}
+
+#location {
+  margin-left: 165px;
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+#location a {
+  text-decoration: none;
+  color: black;
+}
+
+#actual-location {
+  font-weight: bold;
+}
+
+#foot-links {
+  margin-left: 165px;
+  padding-top: 20px;
+}
+
+#foot-links li {
+  display: inline;
+  padding: 0 20px 0 0;
+}
+
+#foot-links a {
+  text-decoration: none;
+  font-size: 14px;
+}
