@@ -48,7 +48,10 @@ nav a {
 }
 
 #apps-button {
-  display: block;
+  height: 24px;
+  width: 24px;
+  background: url("images/homepagesprite.png") -135px 27px;
+  overflow: hidden;
 }
 
 a #signin-button {
