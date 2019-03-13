@@ -78,11 +78,16 @@ a #signin-button {
   margin: 0 auto 20px auto;
   height: 44px;
   width: 484px;
-  border-radius: 2px;
+  padding-left: 15px;
   background-color: white;
+  font-size: 1.2rem;
   box-shadow: 0 0 2px grey;
   border: 0;
   border-radius: 40px;
+}
+
+#search:focus {
+  outline: none;
 }
 
 /* Search Button & Feeling Lucky */
